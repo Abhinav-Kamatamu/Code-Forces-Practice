@@ -5,8 +5,6 @@
 
 using namespace std;
 
-typedef pair<int, int> ci;
-
 
 int find_next_odd(vector<char>& list, int start, int &twos) {
     for (int i = start; i < list.size(); i++) {
